@@ -1,0 +1,18 @@
+{
+  "name": "ai-context-bridge-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that feeds AI tools the currently selected Unity GameObjects and assets of interest",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "start:stdio": "node index.js --stdio",
+    "start:http": "node index.js --http",
+    "test": "node index.js --self-test"
+  },
+  "author": "Jamius Siam",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
