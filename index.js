@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+// Copyright (c) 2026 Jamius Siam
+
 'use strict';
 
 const http = require('node:http');
