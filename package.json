@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "bin": {
-    "uacb-mcp": "./index.js"
+    "uacb-mcp": "index.js"
   },
   "files": [
     "index.js",
