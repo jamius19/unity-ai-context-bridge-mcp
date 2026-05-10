@@ -7,12 +7,12 @@
   "scripts": {
     "start": "node index.js",
     "start:stdio": "node index.js --stdio",
-    "start:http": "node index.js --http",
-    "test": "node index.js --self-test"
+    "start:http": "node index.js --http"
   },
   "author": "Jamius Siam",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.29.0"
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
   }
 }
