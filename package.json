@@ -1,9 +1,17 @@
 {
-  "name": "ai-context-bridge-mcp",
+  "name": "unity-ai-context-bridge-mcp",
   "version": "1.0.0",
-  "description": "MCP server that feeds AI tools the currently selected Unity GameObjects and assets of interest",
+  "description": "MCP server that feeds AI tools the currently selected Unity GameObjects and assets of interest. Requires the \"Unity AI Context Bridge\" Unity package to be installed in the Unity project.",
   "main": "index.js",
   "type": "commonjs",
+  "bin": {
+    "uacb-mcp": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "start": "node index.js",
     "start:stdio": "node index.js --stdio",
@@ -11,6 +19,9 @@
   },
   "author": "Jamius Siam",
   "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "zod": "^4.4.3"
