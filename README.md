@@ -9,6 +9,8 @@ Node MCP server that feeds AI tools Unity GameObjects, assets, and other resourc
 > [!TIP]  
 > For the best experience, use Unity Official MCP server along with this.
 
+NPM Package Page at [https://npmjs.com/package/@jamius19/unity-ai-context-bridge-mcp](https://npmjs.com/package/@jamius19/unity-ai-context-bridge-mcp)
+
 <br>
 
 ## Installation
