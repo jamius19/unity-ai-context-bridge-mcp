@@ -1,6 +1,6 @@
 {
   "name": "@jamius19/unity-ai-context-bridge-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server that feeds AI tools the currently selected Unity GameObjects and assets of interest. Requires the \"Unity AI Context Bridge\" Unity package to be installed in the Unity project.",
   "homepage": "https://github.com/jamius19/unity-ai-context-bridge-mcp",
   "repository": {

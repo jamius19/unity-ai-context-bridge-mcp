@@ -18,6 +18,9 @@ Install the package globally:
 ```shell
 npm install -g @jamius19/unity-ai-context-bridge-mcp
 ```
+
+Then the MCP server will be available on your terminal with the `uacb-mcp` command.
+
 <br>
 
 ## MCP Client Installation
