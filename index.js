@@ -158,7 +158,7 @@ function createUnityMcpServer() {
   );
 
   server.registerTool(
-    'get-unity-context-items',
+    'get_unity_context_items',
     {
       title: 'Get Unity Context Items',
       description: 'Returns information about the Unity GameObjects, assets, and other editor items user selected in the Unity editor that are relevant to the active AI task.',

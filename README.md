@@ -302,7 +302,7 @@ Resource template:
 
 Tool:
 
-- `get-unity-context-items`: returns the current Unity selection context for AI tools. It requires a URL-encoded `projectPath`; the server reads that project's bridge file and uses its URL.
+- `get_unity_context_items`: returns the current Unity selection context for AI tools. It requires a URL-encoded `projectPath`; the server reads that project's bridge file and uses its URL.
 
 Example JSON-RPC request:
 
@@ -312,7 +312,7 @@ Example JSON-RPC request:
   "id": 1,
   "method": "tools/call",
   "params": {
-    "name": "get-unity-context-items",
+    "name": "get_unity_context_items",
     "arguments": {
       "projectPath": "C%3A%5Cexample%5Cunity%5Cunity%5Cproject"
     }
