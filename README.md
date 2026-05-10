@@ -3,7 +3,7 @@
 Node MCP server that feeds AI tools Unity GameObjects, assets, and other resources that are selected by the user. Think of it like when you drag source code in Cursor, Antigravity, Github Copilot window to add that file to context, but for Unity.
 
 > [!IMPORTANT]  
-> The MCP server requires the `Unity AI Context Bridge` Unity package to be installed in the Unity project.
+> The MCP server requires the `Unity AI Context Bridge` Unity package to be installed in the Unity project. See more details at [https://github.com/jamius19/unity-ai-context-bridge](https://github.com/jamius19/unity-ai-context-bridge)
 
 
 > [!TIP]  
